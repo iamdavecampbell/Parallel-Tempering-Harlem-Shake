@@ -8,8 +8,9 @@ This code was used to make the video: https://www.youtube.com/watch?v=J6FrNf5__G
 
 All of this is dased on code from https://www.youtube.com/watch?v=Vv3f0QNWvWQ
 In that video they compare Metropolis Hastings with Hamiltonian Monte Carlo.
+This demo build on code from: from http://github.com/duvenaud/harlemcmc-shake
 
-Combined this provides the ability to compare all of Metropolis Hastings vs Hamiltonian Monte Carlo  vs  Parallel Tempering.
+Combining both examples this provides the ability to compare all of Metropolis Hastings vs Hamiltonian Monte Carlo  vs  Parallel Tempering.
 
 
 The quick version is that Hamiltonian Monte Carlo is a vital tool for sampling from distributions defined on manifolds, skewed or long tail distributions.  Parallel Tempering is the best tool for multimodal densities but also is super useful on skewed and long tail distributions.  Parallel tempering works ok on densities defined on manifolds but Hamiltonian Monte Carlo is not a good tool for multi-modal densities.  
